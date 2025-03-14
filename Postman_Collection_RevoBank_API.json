@@ -1,0 +1,216 @@
+{
+  "info": {
+    "name": "RevoBank API",
+    "description": "API documentation for RevoBank",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "User Routes",
+      "item": [
+        {
+          "name": "Create User",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/users",
+              "host": ["{{baseUrl}}"],
+              "path": ["users"]
+            }
+          },
+          "response": [
+            {
+              "code": 201,
+              "body": "{\"message\": \"User created successfully\"}"
+            }
+          ]
+        },
+        {
+          "name": "Get User Profile",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/users/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["users", "me"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"User profile retrieved\"}"
+            }
+          ]
+        },
+        {
+          "name": "Update User Profile",
+          "request": {
+            "method": "PUT",
+            "url": {
+              "raw": "{{baseUrl}}/users/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["users", "me"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"User profile updated successfully\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Account Routes",
+      "item": [
+        {
+          "name": "Get Accounts",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/accounts",
+              "host": ["{{baseUrl}}"],
+              "path": ["accounts"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"Accounts retrieved\"}"
+            }
+          ]
+        },
+        {
+          "name": "Get Account",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/accounts/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["accounts", "1"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"Account 1 details retrieved\"}"
+            }
+          ]
+        },
+        {
+          "name": "Create Account",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/accounts",
+              "host": ["{{baseUrl}}"],
+              "path": ["accounts"]
+            }
+          },
+          "response": [
+            {
+              "code": 201,
+              "body": "{\"message\": \"Account created successfully\"}"
+            }
+          ]
+        },
+        {
+          "name": "Update Account",
+          "request": {
+            "method": "PUT",
+            "url": {
+              "raw": "{{baseUrl}}/accounts/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["accounts", "1"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"Account 1 updated successfully\"}"
+            }
+          ]
+        },
+        {
+          "name": "Delete Account",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/accounts/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["accounts", "1"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"Account 1 deleted successfully\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transaction Routes",
+      "item": [
+        {
+          "name": "Get Transactions",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/transactions",
+              "host": ["{{baseUrl}}"],
+              "path": ["transactions"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"Transactions retrieved\"}"
+            }
+          ]
+        },
+        {
+          "name": "Get Transaction",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/transactions/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["transactions", "1"]
+            }
+          },
+          "response": [
+            {
+              "code": 200,
+              "body": "{\"message\": \"Transaction 1 details retrieved\"}"
+            }
+          ]
+        },
+        {
+          "name": "Create Transaction",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/transactions",
+              "host": ["{{baseUrl}}"],
+              "path": ["transactions"]
+            }
+          },
+          "response": [
+            {
+              "code": 201,
+              "body": "{\"message\": \"Transaction created successfully\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
