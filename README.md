@@ -75,5 +75,3 @@ RevoBank API
 
 - **Description :**
 You have’t added a description tag. By default, the documentation content will be displayed in markdown format.
-
-
