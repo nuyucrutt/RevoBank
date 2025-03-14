@@ -54,3 +54,24 @@ Authentication is required for certain endpoints. Ensure to include the necessar
 
 ## License
 This project is licensed under the MIT License.
+
+## Collection details
+URL for published documentation
+https://documenter.getpostman.com/view/43110513/2sAYkBrfsa
+Collection name
+RevoBank API
+
+Versions
+CURRENT
+
+Environment
+No Environment
+
+SEO
+Title
+RevoBank API
+
+Description
+You have’t added a description tag. By default, the documentation content will be displayed in markdown format.
+
+
