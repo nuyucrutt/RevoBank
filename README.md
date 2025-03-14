@@ -69,7 +69,7 @@ CURRENT
 - **Environment :**
 No Environment
 
-- **SEO :**
+- SEO 
 - **Title :**
 RevoBank API
 
