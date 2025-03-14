@@ -57,23 +57,23 @@ This project is licensed under the MIT License.
 
 ## Collection details
 
-URL for published documentation
+- **URL for published documentation
 https://documenter.getpostman.com/view/43110513/2sAYkBrfsa
 
-Collection name
+- **Collection name
 RevoBank API
 
-Versions
+- **Versions
 CURRENT
 
-Environment
+- **Environment
 No Environment
 
-SEO
-Title
+- **SEO
+- **Title
 RevoBank API
 
-Description
+- **Description
 You have’t added a description tag. By default, the documentation content will be displayed in markdown format.
 
 
